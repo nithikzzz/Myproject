@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Dept. of Comp. Application</title>
+</head>
+
+<body>
+<font face="Verdana, Arial">
+<table cellpadding="10" cellspacing="10" align="center">
+<tbody>
+<tr><td colspan="3" align="center">
+<strong>Enter Student Detail</strong>
+<br>
+</td></tr>
+<form name="form1" method="post" action="insertphp.php">
+<tr>
+<td>
+<br>
+<tr><td>  Regn. No.   </td><td> ::</td><td>  <input name="vregno" maxlength="5" type="text" maxlength="10" minlength="5" type="text" title="enter valid studentid" required></td></tr>
+
+<tr><td>  Student Name</td><td> ::</td><td>  <input name="vname" maxlength="30" type="text" pattern="[a-z]{1,30}" title="Only lowercase letters" required></td></tr>
+
+<tr><td>  Mobile No.  </td><td> ::</td><td>  <input name="vmobile" maxlength="20" type="text" pattern="[0-9]{10}"title="Enter ten digits" required></td></tr>
+
+<tr><td>  Department  </td><td> ::</td><td>  <input name="vdept" maxlength="10" type="text" required></td></tr>
+
+<tr><td>  Grade       </td><td> :: </td><td> <input name="vgrade" maxlength="1" type="text" required></td></tr>
+
+</div>
+</td></tr>
+<tr>
+<td colspan="3" height="52" align="center">
+<input name="Submit1" value="Insert" type="submit"> &nbsp; &nbsp; &nbsp
+<input name="Submit2" value="Reset" type="reset"><button><a href="Delete.html">Delete</button><button><a href="Update.html">Update</button><button><a href="Display.html">Display</button>
+
+</td>
+</tr>
+</form>
+</font>
+</tbody>
+</table>
+</body>
+</html>
